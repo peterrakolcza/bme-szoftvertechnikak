@@ -1,0 +1,12 @@
+A 2. feladat megoldása során az alábbi tervezési döntéseket hoztam, annak érdekében, hogy minden feltételnek megfeleljen a programom. 
+
+Benne bolt az előírásba, hogy könnyen lehessen bővíteni a programot, akár új alakzatokkal, így létrehoztam egy közös ShapeBase osztályt,
+amiből leszármazik az összes alakzat. Ezeknek az alakzatoknak azonos függvényeik is vannak. Ezenfelül, az IShape interfésszel, a ShapeBase
+segítségével, azt is el tudjuk érni, hogy az összes különböző alakzatot egy heterogén kollekcióban tudjuk majd tárolni, mivel van közös ősük.
+A TextArea osztálynak az előre megadott és nem módosítható Textbox osztályból kellett leszármaznia. A TextArea osztály ugyanúgy, ahogy
+a Circle és a Square megvalósítja az IShape interfészt, a TextArea is megvalósítja, így ez az alakzat is bekerülhet a heterogén kollekcióba.
+
+Az IShape interfész bevezetésére, azért volt szükség, mert máshogy nem lehetett volna a különböző típusokat egységes listában kezelni, 
+ugyanis nem lett volna azonos ősosztályuk.
+Ezen alakzatok listáját a ShapeInventory osztály valósítja meg, melynek egy IShape típúsú tagváltozója van. Ez tárolja az alakzatokat.
+A ListAllShape függvényt felhasználva a Main függvényben, ki tudom listázni a lista tartalmát az előre definiált formátumban.
