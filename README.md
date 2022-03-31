@@ -1,1 +1,5 @@
-# bme-szoftvertechnikak
+# Szoftvertechnikák (VIAUAB00)
+
+A tárgy alapvető célja, hogy elmélyítse a korábbi félévekben megkezdett számítógépes problémamegoldás terén szerzett ismereteket, valamint az objektumorientált paradigmát követve kiszélesítse a szoftverfejlesztés technikáinak spektrumát.  A hallgatók elsajátítják a natív és felügyelt eseményvezérelt programozás legfontosabb módszereit, a grafikus felhasználói felület, gyors alkalmazás-fejlesztés (RAD - Rapid Application Development) struktúráit és programozási alapjait, valamint megismerik a modern felügyelt futtatókörnyezetek és osztálykönyvtárak fontosabb szolgáltatásait (reflexiós technikák, adatkötés, rajz és szöveg megjelenítése, párhuzamos feldolgozás, szinkronizációs technikák, stb.). Ezen túlmenően a tárgy ismerteti a szoftverrendszerek tervezésének kapcsán a gyakrabban használt architekturális és tervezési mintákat, valamint ezek szerepét a szoftverfejlesztés folyamatában.  A tárgy a minták elméleti ismertetésén túlmenően esettanulmányokon és laborfoglalkozások keretében bemutatja a fontosabb minták gyakorlatban történő alkalmazástechnikáját.
+
+Célkitűzését a tárgy az előző félévekben megszerzett C és C++, Java nyelvi tudásra, valamint az UML nyelv alapjaira építve éri el. A laborok anyaga folyamatosan követi és kiegészíti az előadások tematikáját, azok mélyebb megértését teszi lehetővé.
